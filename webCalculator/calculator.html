@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="Assignment_9.js"></script>
+<title>Assignment 9</title>
+<style>
+    body {background-color: powderblue;
+    }
+    h2{
+    text-align: center;
+    color: blue;
+    }
+    table{
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    </style>
+</head>
+<body>
+
+<h2>Calculator</h2>
+
+<form id="add_form" action="javascript:addData();"></form>
+<form id="subtract_form" action="javascript:subtractData();"></form>
+<form id="multiply_form" action="javascript:multiplyData();"></form>
+<form id="devide_form" action="javascript:devideData();"></form>
+<form id="remain_form" action="javascript:remainData();"></form>
+
+<table>
+<tr><td><input type="number" name="num1" id="num1" form="add_form" required></td>
+<td>+</td>
+<td><input type="number" name="num2" id="num2" form="add_form" required></td>
+<td><input type="submit" value="=" form="add_form"></td>
+<td><input type="text" name="add_res1" id="add_res1"></td></tr>
+
+
+<tr><td><input type="number" name="num3" id="num3" form="subtract_form" required></td>
+<td>-</td>
+<td><input type="number" name="num4" id="num4" form="subtract_form" required></td>
+<td><input type="submit" value="=" form="subtract_form"></td>
+<td><input type="text" name="add_res2" id="add_res2"></td></tr>
+
+
+<tr><td><input type="number" name="num5" id="num5" form="multiply_form" required></td>
+<td>*</td>
+<td><input type="number" name="num6" id="num6" form="multiply_form" required></td>
+<td><input type="submit" value="=" form="multiply_form"></td>
+<td><input type="text" name="add_res3" id="add_res3"></td></tr>
+
+
+<tr><td><input type="number" name="num7" id="num7" form="devide_form" required></td>
+<td>/</td>
+<td><input type="number" name="num8" id="num8" form="devide_form" required></td>
+<td><input type="submit" value="=" form="devide_form"></td>
+<td><input type="text" name="add_res4" id="add_res4"></td></tr>
+
+
+<tr><td><input type="number" name="num9" id="num9" form="remain_form" required></td>
+<td>%</td>
+<td><input type="number" name="num10" id="num10" form="remain_form" required></td>
+<td><input type="submit" value="=" form="remain_form"></td>
+<td><input type="text" name="add_res5" id="add_res5"></td></tr>
+</table>
+</body></html>
